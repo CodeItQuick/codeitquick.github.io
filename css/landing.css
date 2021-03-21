@@ -1,0 +1,114 @@
+section#hero {
+    height: 50vh;
+    background-image: url("/images/hero-img.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.brand {
+    color: #fff;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+ul.menu {
+    height: 60px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: small;
+    list-style-type: none;
+}
+
+.menu-item {
+    height: 60px;
+    padding-top: 20px;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#hero-banner h1 {
+    padding: 10vh;
+    color: #fff;
+    font-size: xx-large;
+}
+
+.card {
+    background-color: #fff;
+    height: 200px;
+    border-radius: 15px;
+    margin: 25px;
+    border: 3px solid #2E8DE1;
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    display: none;
+  }
+}
+.card i {
+    font-size: xx-large;
+    padding: 10% 40% 10% 40%;
+}
+
+.card h3, 
+.card p {
+    padding: 10px;
+}
+
+section#professional-services {
+    margin-top: 150px;
+}
+
+.professional-services {
+    margin-top: 40px;
+}
+
+.professional-grid {
+    display: flex;
+}
+
+.left-professional-services-top {
+    height: 170px;
+    margin: 0;
+    padding: 10px;
+    background-image: linear-gradient(to left top,#B65EBA,#2E8DE1);
+    color: #fff;
+}
+
+.left-professional-services-bottom {
+    height: 170px;
+    margin: 0;
+    padding: 10px;
+    }
+.right-professional-services-top {
+    height: 170px;
+    margin: 0;
+    padding: 10px;
+}
+.right-professional-services-bottom {
+    height: 170px;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    background-image: linear-gradient(to right bottom,#B65EBA,#2E8DE1);
+}
+
+section#about-us {
+    margin-top: 30px;
+}
+
+.about-us-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
